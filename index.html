@@ -182,11 +182,11 @@ const audio = document.getElementById('bgMusic');
     document.getElementById('slideImage').src = images[currentIndex];
     const hint = document.getElementById('hint');
     if (currentIndex === 0) {
-      hint.textContent = 'Tap right → to continue (Cmon Jasz)';
+      hint.textContent = 'Tap left → to continue (Cmon Jasz)';
     } else if (currentIndex === images.length - 1) {
       hint.textContent = 'This is the end of your journey Jasz';
     } else {
-      hint.textContent = 'Tap left ↔ right (lol)';
+      hint.textContent = 'Tap right ↔ left (lol)';
     }
   }
 
