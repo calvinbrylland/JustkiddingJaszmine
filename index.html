@@ -69,14 +69,16 @@
     }
 
     .hint {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      text-align: center;
-      color: white;
-      font-size: 1.2em;
-      text-shadow: 1px 1px 2px black;
-    }
+  position: absolute;
+  top: 20px; /* moved from bottom to top */
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 2px black;
+  z-index: 2;
+  pointer-events: none;
+}
 
 .tap-zone {
   position: absolute;
